@@ -3,12 +3,13 @@ from telegram import (
     BotCommand, InlineKeyboardMarkup, InlineKeyboardButton,
     ReplyKeyboardMarkup, KeyboardButton
 )
+import os
 from telegram.ext import (
     ApplicationBuilder, CommandHandler, MessageHandler,
     CallbackQueryHandler, ContextTypes, filters
 )
 
-TOKEN = "7985524210:AAGgSgTaZIX__xpqY15ZiPbt5zBwIP4A23Y"
+TOKEN = os.getenv("BOT_TOKEN")
 
 # Bir nechta adminlar
 ADMIN_IDS = {7355079609, 6468400089}
