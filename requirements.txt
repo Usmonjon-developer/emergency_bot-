@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 pip~=24.0
 certifi~=2025.8.3
 typing_extensions~=4.14.1
 python-telegram-bot~=22.3
+=======
+pip~=24.0
+certifi~=2025.8.3
+typing_extensions~=4.14.1
+python-telegram-bot~=22.3
+>>>>>>> 801da1b922317c4ecf3fc8a2d61096cfaf91404a
 setuptools~=65.5.0
